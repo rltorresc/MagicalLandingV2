@@ -1,0 +1,36 @@
+---
+interface Props {
+  title: string;
+  class?: string;
+  justifyClass?: string;
+}
+
+const { title } = Astro.props;
+---
+
+<article
+  class={`
+    ${Astro.props.class}
+    col-span-5
+    relative rounded-xl
+    backdrop-blur-md
+    border border-black/10
+    shadow-inner shadow-white/10
+    overflow-hidden
+    group
+    bg-neutral-900
+    `}
+>
+  <!-- Contenedor de la imagen con z-index más bajo para el fondo -->
+  <slot name="image" class="absolute left-0 top-0 bottom-0 w-full h-full z-0" />
+
+  <!-- El contenedor del título y el contenido con z-index más alto -->
+  <div
+    class={`relative select-none flex flex-col gap-1 p-4 text-lg z-10 h-full md:p-6 ${Astro.props.justifyClass}`}
+  >
+    <h3 class="text-base font-semibold text-balance text-purple-400 mb-4">
+      {title}
+    </h2>
+    <slot name="content" />
+  </div>
+</article>

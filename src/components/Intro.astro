@@ -1,0 +1,60 @@
+---
+import { BorderBeam } from "@/components/ui/border-beam";
+import AnimatedShinyText from "@/components/ui/animated-shiny-text";
+import { RainbowButton } from "@/components/ui/rainbow-button";
+---
+
+<div class="flex flex-col justify-between items-center animate-fade-up">
+  <!-- Parte superior -->
+  <div class="w-full text-center pt-6">
+    <AnimatedShinyText
+      className="inline-flex items-center justify-center px-4 py-1 transition ease-out hover:text-neutral-600 hover:duration-300 hover:dark:text-neutral-400"
+    >
+      <span>📣 ¡Ya disponible!</span>
+    </AnimatedShinyText>
+  </div>
+
+  <!-- Parte central -->
+  <div
+    class="flex flex-col items-center justify-center flex-1 text-center space-y-4"
+  >
+    <h1 class="text-7xl font-bold leading-tight">
+      Vamos a crear tu próxima aventura
+    </h1>
+    <p class="text-lg text-neutral-400">
+      Creamos tu próxima aventura de rol con ayuda de la inteligencia
+      artificial.
+    </p>
+  </div>
+  <div class="flex justify-center mt-8">
+    <RainbowButton>Únete por 3,99€/mes</RainbowButton>
+  </div>
+  <!-- Parte inferior -->
+  <div class="relative w-full h-[40rem] mt-32">
+    <!-- Efecto de backlight -->
+    <div
+      class="absolute inset-0 rounded-lg"
+      style="
+    content: '';
+    background: radial-gradient(circle, rgba(168, 85, 247, 0.6) 0%, rgba(128, 90, 213, 0.2) 70%);
+    filter: blur(40px);
+    transform: translateY(-50px);
+    z-index: -1;
+  "
+    >
+    </div>
+
+    <!-- Imagen principal -->
+    <div
+      class="w-full h-full bg-cover rounded-lg shadow-xl"
+      style="background-image: url('/app_magical.webp');"
+    >
+      <!-- Capa de superposición -->
+      <div
+        class="absolute inset-0 rounded-lg after:content-[''] after:absolute after:inset-0 after:bg-gradient-to-t after:from-[hsl(var(--background))] after:to-transparent after:opacity-100"
+      >
+        <BorderBeam />
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,59 @@
+---
+import { MagicCard } from "@/components/ui/magic-card";
+import Appweb from "./Appweb.astro";
+import Monstruos from "./Monstruos.astro";
+import Appmovil from "./Appmovil.astro";
+---
+
+<div>
+  <h2
+    class="text-4xl font-semiblod text-center text-wrap mx-auto mb-10 tracking-wide"
+  >
+    Nuestro camino en esta aventura
+  </h2>
+    <p
+        class="text-center max-w-4xl text-base md:text-base text-balance font-medium mx-auto mb-4"
+    >
+        Estamos en una misión para llevar la experiencia de juego de rol a un nuevo nivel. 
+        Nuestro objetivo es crear una plataforma que permita a los jugadores y directores de juego 
+        disfrutar de una experiencia de juego más inmersiva y personalizada. 
+        A continuación, te presentamos las fases de desarrollo de Magical20.
+    </p>
+</div>
+<div class="flex flex-col lg:flex-row justify-center gap-4 max-w-[1400px] mx-auto p-20">
+    <MagicCard
+        client:load
+        className="flex flex-col items-center justify-center w-full h-64 lg:w-1/3 lg:h-48 shadow-2xl text-xl bg-purple-900"
+        gradientColor={"#6c309b"}
+    >
+        <span class="relative top-0 left-0 m-2 text-white font-bold">✔ Fase 1</span>
+        <div class="flex justify-center">
+            <Appweb />
+        </div>
+        <div class="text-center mt-2">Lanzamiento de Magical20 versión Alpha Web</div>
+    </MagicCard>
+    <MagicCard
+        client:load
+        className="flex flex-col items-center justify-center w-full h-64 lg:w-1/3 lg:h-48 shadow-2xl text-xl bg-purple-900"
+        gradientColor={"#6c309b"}
+    >
+        <span class="relative top-0 left-0 m-2 text-white font-bold">✔ Fase 2</span>
+        <div class="flex justify-center">
+            <Monstruos />
+        </div>
+        <div class="text-center mt-2">
+            Lanzamiento de App gratuita de creación de monstruos
+        </div>
+    </MagicCard>
+    <MagicCard
+        client:load
+        className="flex flex-col items-center justify-center w-full h-64 lg:w-1/3 lg:h-48 shadow-2xl text-xl p-4"
+        gradientColor={"#262626"}
+    >
+        <span class="relative top-0 left-0 m-2 text-gray-500 font-bold">Fase 3</span>
+        <div class="flex justify-center">
+            <Appmovil />
+        </div>
+        <div class="text-center mt-2">Lanzamiento de Magical20 versión móvil</div>
+    </MagicCard>
+</div>

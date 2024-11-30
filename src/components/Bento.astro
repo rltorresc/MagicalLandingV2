@@ -1,0 +1,94 @@
+---
+import BentoItem from "./BentoItem.astro";
+---
+
+<section
+  class={`
+    w-full max-w-[1400px]
+    grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-11 auto-rows-[25rem] gap-6
+    mx-auto p-6 md:p-12 lg:p-20
+  `}
+>
+  <!-- Primer bloque -->
+  <BentoItem
+    class="col-span-1 sm:col-span-1 lg:col-span-4 flex flex-col justify-start hover:bg-purple-800"
+    title="Crea aventuras en cuestión de minutos"
+    justifyClass="justify-start"
+  >
+    <div
+      slot="image"
+      class="absolute w-[90%] top-44 h-full group-hover:translate-y-[-20px] transition-transform duration-300 ease-in-out bg-blend-luminosity bg-contain bg-no-repeat z-20 left-6"
+      style="background-image: url('/historia.png');"
+    >
+    </div>
+    <p
+      slot="content"
+      class="relative max-w-xl text-base md:text-base text-balance font-medium"
+    >
+      Conversaciones en tiempo real con personajes de la trama. El asistente te
+      guiará y te ayudará a preparar aventuras profundas paso a paso.
+    </p>
+  </BentoItem>
+
+  <!-- Segundo bloque -->
+  <BentoItem
+    class="col-span-1 sm:col-span-1 lg:col-span-4 flex flex-col justify-start hover:bg-purple-800"
+    title="Listo para jugar"
+    justifyClass="justify-start"
+  >
+    <div
+      slot="image"
+      class="absolute w-[90%] top-44 h-full group-hover:translate-y-[-20px] transition-transform duration-300 ease-in-out bg-blend-luminosity bg-contain bg-no-repeat z-20 left-6"
+      style="background-image: url('/monstruo.png');"
+    >
+    </div>
+    <p
+      slot="content"
+      class="max-w-xl text-base md:text-base text-balance font-medium"
+    >
+      Todos los personajes, monstruos y objetos están listos para jugar, con
+      todas las estadísticas necesarias.
+    </p>
+  </BentoItem>
+
+  <!-- Tercer bloque (siempre ocupa dos alturas) -->
+  <BentoItem
+    class="col-span-1 sm:col-span-2 lg:col-span-3 row-span-2 flex flex-col justify-end hover:bg-purple-800"
+    title="Crea a tu antojo"
+    justifyClass="justify-start"
+  >
+    <div
+      slot="image"
+      class="absolute w-[450%] h-full bg-blend-luminosity bg-left bg-contain bg-no-repeat z-0 top-40 left-16 transition-transform duration-300 ease-in-out transform group-hover:translate-x-[-20px]"
+      style="background-image: url('/menu2.png');"
+    >
+    </div>
+    <p
+      slot="content"
+      class="max-w-xl text-base md:text-base text-balance font-medium"
+    >
+      Trasfondos profundos para cada personaje. Sorprende a tus jugadores con un
+      mundo rico en detalles y lleno de misterios por descubrir.
+    </p>
+  </BentoItem>
+
+  <!-- Cuarto bloque -->
+  <BentoItem
+    class="col-span-1 sm:col-span-2 lg:col-span-8 flex flex-col justify-start hover:bg-purple-800"
+    title="Retómalo donde lo dejaste"
+  >
+    <div
+      slot="image"
+      class="absolute w-[100%] top-36 h-full group-hover:translate-y-[-20px] transition-transform duration-300 ease-in-out bg-blend-luminosity bg-contain bg-no-repeat z-20 left-48"
+      style="background-image: url('/asistente2.png');"
+    >
+    </div>
+    <p
+      slot="content"
+      class="max-w-xl text-base md:text-base text-balance font-medium"
+    >
+      El asistente recordará todos los detalles de tu partida, para que puedas
+      retomarla en cualquier momento.
+    </p>
+  </BentoItem>
+</section>
