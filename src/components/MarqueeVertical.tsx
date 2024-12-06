@@ -3,6 +3,13 @@ import {supabase} from '../lib/supabase.ts';
 import {cn} from "@/lib/utils";
 import Marquee from "@/components/ui/marquee";
 
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+
+import { defaultLang } from "../i18n/ui";
+
+const lang = typeof window !== "undefined" ? getLangFromUrl(new URL(window.location.href)) : defaultLang;
+const t = useTranslations(lang);
+
 interface User {
   name: string;
   username: string;
@@ -58,7 +65,7 @@ export default function MarqueeHorizontal() {
         const formattedUsers = data.map((user: any) => ({
           name: user.username,
           username: `@${user.name}`,
-          body: "¡Se ha unido a Magical20!",
+          body: t("marquee.body"),
           img: user?.avatar_url ?? `https://avatar.vercel.sh/${user.username}`,
         }));
         setUsers(formattedUsers);

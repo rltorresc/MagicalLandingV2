@@ -2,9 +2,14 @@
 import AppleBadge from "./AppleBadge.astro";
 import PlayBadge from "./PlayBadge.astro";
 import Logo from "./Logo.astro";
+
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 ---
 
-<footer class= "mt-24">
+<footer class="mt-24">
   <div class="mx-auto w-full max-w-screen-2xl p-4 py-6 lg:py-8">
     <div class="md:flex md:justify-between">
       <div class="mb-6 md:mb-0 flex flex-col">
@@ -41,7 +46,7 @@ import Logo from "./Logo.astro";
       <div class="grid gap-8 sm:gap-6 text-center">
         <div>
           <h2 class="mb-6 text-sm font-semibold uppercase text-white">
-            Siguenos
+            {t("footer.text")}
           </h2>
           <ul class="text-gray-500 dark:text-gray-400 font-medium">
             <li class="mb-4">

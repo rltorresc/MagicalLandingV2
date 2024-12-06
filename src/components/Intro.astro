@@ -2,6 +2,11 @@
 import { BorderBeam } from "@/components/ui/border-beam";
 import AnimatedShinyText from "@/components/ui/animated-shiny-text";
 import { RainbowButton } from "@/components/ui/rainbow-button";
+
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 ---
 
 <div class="flex flex-col justify-between items-center animate-fade-up">
@@ -10,7 +15,7 @@ import { RainbowButton } from "@/components/ui/rainbow-button";
     <AnimatedShinyText
       className="inline-flex items-center justify-center px-4 py-1 transition ease-out hover:text-neutral-600 hover:duration-300 hover:dark:text-neutral-400"
     >
-      <span>📣 ¡Ya disponible!</span>
+      <span>{t("span.head")}</span>
     </AnimatedShinyText>
   </div>
 
@@ -19,15 +24,14 @@ import { RainbowButton } from "@/components/ui/rainbow-button";
     class="flex flex-col items-center justify-center flex-1 text-center space-y-4"
   >
     <h1 class="text-7xl font-bold leading-tight">
-      Vamos a crear tu próxima aventura
+      {t("h1.titulo")}
     </h1>
     <p class="text-lg text-neutral-400">
-      Creamos tu próxima aventura de rol con ayuda de la inteligencia
-      artificial.
+      {t("p.subtitulo")}
     </p>
   </div>
   <div class="flex justify-center mt-8">
-    <RainbowButton>Únete por 3,99€/mes</RainbowButton>
+    <RainbowButton>{t("button.unirse")}</RainbowButton>
   </div>
   <!-- Parte inferior -->
   <div class="relative w-full h-[40rem] mt-32">

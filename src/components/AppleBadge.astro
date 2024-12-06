@@ -1,3 +1,10 @@
+---
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
 <a
   href="#"
   class="w-full sm:w-auto bg-gray-800 hover:bg-purple-700 hover:scale-110 transition-scale duration-100 ease-in-out focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700"
@@ -17,7 +24,7 @@
     ></path></svg
   >
   <div class="text-left rtl:text-right">
-    <div class="mb-1 text-xs">Consíguelo en la</div>
+    <div class="mb-1 text-xs">{t("apple.badge")}</div>
     <div class="-mt-1 font-sans text-sm font-semibold">App Store</div>
   </div>
 </a>

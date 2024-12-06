@@ -1,5 +1,10 @@
 ---
 import BentoItem from "./BentoItem.astro";
+
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 ---
 
 <section
@@ -12,7 +17,7 @@ import BentoItem from "./BentoItem.astro";
   <!-- Primer bloque -->
   <BentoItem
     class="col-span-1 sm:col-span-1 lg:col-span-4 flex flex-col justify-start hover:bg-purple-800"
-    title="Crea aventuras en cuestión de minutos"
+    title={t("bento.title1")}
     justifyClass="justify-start"
   >
     <div
@@ -25,15 +30,14 @@ import BentoItem from "./BentoItem.astro";
       slot="content"
       class="relative max-w-xl text-base md:text-base text-balance font-medium"
     >
-      Conversaciones en tiempo real con personajes de la trama. El asistente te
-      guiará y te ayudará a preparar aventuras profundas paso a paso.
+      {t("bento.text1")}
     </p>
   </BentoItem>
 
   <!-- Segundo bloque -->
   <BentoItem
     class="col-span-1 sm:col-span-1 lg:col-span-4 flex flex-col justify-start hover:bg-purple-800"
-    title="Listo para jugar"
+    title={t("bento.title2")}
     justifyClass="justify-start"
   >
     <div
@@ -46,15 +50,14 @@ import BentoItem from "./BentoItem.astro";
       slot="content"
       class="max-w-xl text-base md:text-base text-balance font-medium"
     >
-      Todos los personajes, monstruos y objetos están listos para jugar, con
-      todas las estadísticas necesarias.
+      {t("bento.text2")}
     </p>
   </BentoItem>
 
   <!-- Tercer bloque (siempre ocupa dos alturas) -->
   <BentoItem
     class="col-span-1 sm:col-span-2 lg:col-span-3 row-span-2 flex flex-col justify-end hover:bg-purple-800"
-    title="Crea a tu antojo"
+    title={t("bento.title3")}
     justifyClass="justify-start"
   >
     <div
@@ -67,15 +70,14 @@ import BentoItem from "./BentoItem.astro";
       slot="content"
       class="max-w-xl text-base md:text-base text-balance font-medium"
     >
-      Trasfondos profundos para cada personaje. Sorprende a tus jugadores con un
-      mundo rico en detalles y lleno de misterios por descubrir.
+      {t("bento.text3")}
     </p>
   </BentoItem>
 
   <!-- Cuarto bloque -->
   <BentoItem
     class="col-span-1 sm:col-span-2 lg:col-span-8 flex flex-col justify-start hover:bg-purple-800"
-    title="Retómalo donde lo dejaste"
+    title={t("bento.title4")}
   >
     <div
       slot="image"
@@ -87,8 +89,7 @@ import BentoItem from "./BentoItem.astro";
       slot="content"
       class="max-w-xl text-base md:text-base text-balance font-medium"
     >
-      El asistente recordará todos los detalles de tu partida, para que puedas
-      retomarla en cualquier momento.
+      {t("bento.text4")}
     </p>
   </BentoItem>
 </section>
