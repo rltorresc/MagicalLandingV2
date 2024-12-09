@@ -4,22 +4,15 @@ import AnimatedShinyText from "@/components/ui/animated-shiny-text";
 import { RainbowButton } from "@/components/ui/rainbow-button";
 
 import { getLangFromUrl, useTranslations } from "../i18n/utils";
+import AppleBadge from "./AppleBadge.astro";
+import PlayBadge from "./PlayBadge.astro";
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 ---
 
-<div class="flex flex-col justify-between items-center animate-fade-up">
+<div class="flex flex-col justify-between items-center animate-fade-up mt-30">
   <!-- Parte superior -->
-  <div class="w-full text-center pt-6">
-    <AnimatedShinyText
-      className="inline-flex items-center justify-center px-4 py-1 transition ease-out hover:text-neutral-600 hover:duration-300 hover:dark:text-neutral-400"
-    >
-      <span>{t("span.head")}</span>
-    </AnimatedShinyText>
-  </div>
-
-  <!-- Parte central -->
   <div
     class="flex flex-col items-center justify-center flex-1 text-center space-y-4"
   >
@@ -30,11 +23,25 @@ const t = useTranslations(lang);
       {t("p.subtitulo")}
     </p>
   </div>
-  <div class="flex justify-center mt-8">
-    <RainbowButton>{t("button.unirse")}</RainbowButton>
+  <div class="w-full text-center pt-6">
+    <AnimatedShinyText
+      className="inline-flex items-center justify-center px-4 py-1 transition ease-out hover:text-neutral-600 hover:duration-300 hover:dark:text-neutral-400"
+    >
+      <span>{t("span.head")}</span>
+    </AnimatedShinyText>
   </div>
+
+  <!-- Parte central -->
+   <div class="flex flex-col items-center justify-center mt-16">
+     <img src="/monstruos.webp" class="w-64 h-auto" />
+     <div class="space-y-4 sm:space-y-0 sm:space-x-4 rtl:space-x-reverse mt-8">
+       <AppleBadge />
+       <PlayBadge />
+     </div>
+   </div>
+
   <!-- Parte inferior -->
-  <div class="relative w-full h-[40rem] mt-32">
+  <div class="relative w-full max-w-md mx-auto h-[40rem] mt-16">
     <!-- Efecto de backlight -->
     <div
       class="absolute inset-0 rounded-lg"

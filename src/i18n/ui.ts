@@ -7,9 +7,9 @@ export const defaultLang = 'en';
 
 export const ui = {
     es: {
-        'span.head' : '📣 ¡Ya disponible!', 
-        'h1.titulo' : 'Vamos a crear tu próxima aventura',
-        'p.subtitulo' : 'Creamos tu próxima aventura de rol con ayuda de la inteligencia artificial.',
+        'span.head' : '📣 ¡ App Monstruos ya disponible!', 
+        'h1.titulo' : 'Tus partidas de rol a nivel',
+        'p.subtitulo' : 'Crea aventuras increíbles en cuestión de minutos con la inteligencia artificial de Magical20.',
         'button.unirse' : 'Únete por 3,99€/mes',
         'h2.intro' : '¡Saludos aventureros/as!',
         'p.intro' : 'Lleva al siguiente nivel tus partidas de rol con la ayuda de la Inteligencia Artificial (IA) de Magical20. Habla con personajes en tiempo real, construye aventuras increíbles, crea a tu antojo desde personajes únicos a bestias terroríficas. ¡Y mucho más!',
