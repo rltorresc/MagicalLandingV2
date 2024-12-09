@@ -9,6 +9,7 @@ interface BorderBeamProps {
   colorFrom?: string;
   colorTo?: string;
   delay?: number;
+  radius?: string;
 }
 
 export const BorderBeam = ({
@@ -20,6 +21,7 @@ export const BorderBeam = ({
   colorFrom = "#C084FC",
   colorTo = "#9c40ff",
   delay = -11,
+  radius = "20px",
 }: BorderBeamProps) => {
   return (
     <div
@@ -32,10 +34,11 @@ export const BorderBeam = ({
           "--color-from": colorFrom,
           "--color-to": colorTo,
           "--delay": `-${delay}s`,
+          "--radius": radius,
         } as React.CSSProperties
       }
       className={cn(
-        "pointer-events-none absolute inset-0 rounded-[inherit] [border:calc(var(--border-width)*1px)_solid_transparent]",
+        "pointer-events-none absolute inset-0 [border:calc(var(--border-width)*1px)_solid_transparent] [border-radius:var(--radius)]",
 
         // mask styles
         "![mask-clip:padding-box,border-box] ![mask-composite:intersect] [mask:linear-gradient(transparent,transparent),linear-gradient(white,white)]",
