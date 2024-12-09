@@ -4,24 +4,15 @@ import Intro from "@/components/Intro.astro";
 ---
 
 <section
-  class="relative bg-cover bg-center bg-no-repeat w-full max-w-[100vw] min-h-[calc(100vh-132px)] lg:max-h-[100vh]"
+  class="relative bg-cover bg-center bg-no-repeat w-full max-w-[100vw] min-h-screen flex items-center justify-center"
 >
-  <!-- Particles de fondo -->
   <Particles
     client:load
     color="#ff77ff"
-    className="absolute inset-0 z-0 min-h-[calc(100vh-132px)] lg:max-h-[100vh]"
+    className="absolute inset-0 z-0 w-full h-full"
   />
 
-  <!-- Contenedor principal -->
-  <div
-    class="relative mx-auto max-w-screen-xl h-full z-10 flex flex-col items-center justify-center p-6 min-h-[calc(100vh-132px)] lg:max-h-[100vh] lg:justify-start lg:flex-row"
-  >
-    <!-- Sección izquierda con el componente Intro -->
-    <div
-      class="w-full h-auto flex items-center justify-center"
-    >
-      <Intro />
-    </div>
+  <div class="relative mx-auto max-w-screen-xl z-10 flex flex-col items-center justify-center p-6">
+    <Intro />
   </div>
 </section>

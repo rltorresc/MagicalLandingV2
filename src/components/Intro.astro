@@ -56,16 +56,17 @@ const t = useTranslations(lang);
     </div>
 
     <!-- Imagen principal -->
-    <div
-      class="w-full h-full bg-cover rounded-lg shadow-xl"
-      style="background-image: url('/app_monsters.webp');"
-    >
-      <!-- Capa de superposición -->
-      <div
-        class="absolute inset-0 rounded-lg after:content-[''] after:absolute after:inset-0 after:bg-gradient-to-t after:from-[hsl(var(--background))] after:to-transparent after:opacity-100"
-      >
-        <BorderBeam radius="65px" /> 
-      </div>
-    </div>
+    <div class="relative w-full h-auto bg-cover rounded-lg shadow-xl">
+  <img
+    src="/app_monsters.webp"
+    alt="Imagen de ejemplo"
+    class="w-full h-auto object-cover rounded-lg"
+  />
+  <div
+    class="absolute inset-0 rounded-lg after:content-[''] after:absolute after:inset-0 after:bg-gradient-to-t after:from-[hsl(var(--background))] after:to-transparent after:opacity-100"
+  >
+    <BorderBeam radius="70px" />
+  </div>
+</div>
   </div>
 </div>
