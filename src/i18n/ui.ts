@@ -8,7 +8,7 @@ export const defaultLang = "en";
 export const ui = {
     es: {
         "span.head": "📣 ¡App Monstruos ya disponible!",
-        "h1.titulo": "Tus partidas de rol a nivel",
+        "h1.titulo": "Tus partidas de rol al siguiente nivel",
         "p.subtitulo":
             "Crea aventuras increíbles en cuestión de minutos con la inteligencia artificial de Magical20.",
         "button.unirse": "Únete por 3,99€/mes",
@@ -26,7 +26,7 @@ export const ui = {
             "Crea monstruos impactantes con solo unas palabras, y obtén su ficha completa lista para jugar. Crea y comparte, accede al mayor bestiario jamás creado por la comunidad.",
         "bento.title4": "No es un asistente cualquiera",
         "bento.text4":
-            "Esto no es ChatGPT, el asistente de Magical20 está diseñado para crear tu mejor aventura de rol posible. Detecta y genera elementos de la trama, como personajes o monstruos con su ficha completa.",
+            "Esto no es ChatGPT, el asistente de Magical20 está diseñado para crear aventuras de rol, detectando y generando elementos de la trama con su ficha completa.",
         "h2.cards": "Nuestro camino en esta aventura",
         "p.cards":
             "Estamos en una misión para llevar la experiencia de juego de rol a un nuevo nivel. Nuestro objetivo es crear una plataforma que permita a los jugadores y directores de juego disfrutar de una experiencia de juego más avanzada y fascinante. A continuación, te presentamos las fases de desarrollo de Magical20.",
@@ -62,7 +62,7 @@ export const ui = {
             "All characters, monsters, and items are ready to play, complete with all necessary stats.",
         "bento.title3": "Monsters",
         "bento.text3":
-            "Create stunning monsters with just a few words, and get a complete ready-to-play sheet. Create and share, and access the largest bestiary ever made by the community.",
+            "Create stunning monsters with just a few words, and get their complete ready-to-play sheet. Create and share, and access the largest bestiary ever made by the community.",
         "bento.title4": "Not just any assistant",
         "bento.text4":
             "This is not ChatGPT. Magical20's assistant is designed to create the best possible role-playing adventure for you. It detects and generates plot elements like characters or monsters with complete sheets.",
@@ -101,7 +101,7 @@ export const ui = {
             "Tutti i personaggi, mostri e oggetti sono pronti per giocare, con tutte le statistiche necessarie.",
         "bento.title3": "Mostri",
         "bento.text3":
-            "Crea mostri straordinari con poche parole e ottieni la loro scheda completa pronta per giocare. Crea e condividi, accedi al bestiario più grande mai realizzato dalla comunità.",
+            "Crea mostri straordinari con poche parole e ottieni la loro scheda completa pronta per giocare. Crea e condividi, accedi al più grande bestiario mai realizzato dalla comunità.",
         "bento.title4": "Non un semplice assistente",
         "bento.text4":
             "Questo non è ChatGPT. L'assistente di Magical20 è progettato per creare la migliore avventura di ruolo possibile. Riconosce e genera elementi della trama, come personaggi o mostri con schede complete.",
@@ -140,7 +140,7 @@ export const ui = {
             "Tous les personnages, monstres et objets sont prêts à être utilisés, avec toutes les statistiques nécessaires.",
         "bento.title3": "Monstres",
         "bento.text3":
-            "Créez des monstres impressionnants avec seulement quelques mots et obtenez une fiche prête à jouer. Créez, partagez et accédez au plus grand bestiaire jamais créé par la communauté.",
+            "Créez des monstres impressionnants avec seulement quelques mots et obtenez leur fiche complète prête à jouer. Créez, partagez et accédez au plus grand bestiaire jamais créé par la communauté.",
         "bento.title4": "Pas un assistant ordinaire",
         "bento.text4":
             "Ce n'est pas ChatGPT. L'assistant de Magical20 est conçu pour créer la meilleure aventure de jeu de rôle possible. Il détecte et génère des éléments d'intrigue, comme des personnages ou des monstres avec leurs fiches complètes.",
@@ -179,7 +179,7 @@ export const ui = {
             "Todos os personagens, monstros e itens estão prontos para jogar, com todas as estatísticas necessárias.",
         "bento.title3": "Monstros",
         "bento.text3":
-            "Cria monstros impressionantes com apenas algumas palavras e obtém a ficha completa pronta para jogar. Cria e partilha, e acede ao maior bestiário já criado pela comunidade.",
+            "Cria monstros impressionantes com apenas algumas palavras e obtém a sua ficha completa pronta para jogar. Cria e partilha, e acede ao maior bestiário já criado pela comunidade.",
         "bento.title4": "Não é um assistente qualquer",
         "bento.text4":
             "Isto não é o ChatGPT. O assistente da Magical20 foi concebido para criar a melhor aventura de RPG possível. Deteta e gera elementos da trama, como personagens ou monstros com fichas completas.",
@@ -219,7 +219,7 @@ export const ui = {
             "Alle Charaktere, Monster und Gegenstände sind spielbereit und mit allen notwendigen Statistiken ausgestattet.",
         "bento.title3": "Monster",
         "bento.text3":
-            "Erstelle beeindruckende Monster mit nur wenigen Worten und erhalte ein vollständiges, spielbereites Datenblatt. Erstelle und teile und greife auf das größte Bestiarium zu, das jemals von der Community erstellt wurde.",
+            "Erstelle beeindruckende Monster mit nur wenigen Worten und erhalte ihr vollständiges, spielbereites Datenblatt. Erstelle und teile und greife auf das größte Bestiarium zu, das jemals von der Community erstellt wurde.",
         "bento.title4": "Nicht nur ein gewöhnlicher Assistent",
         "bento.text4":
             "Das ist nicht ChatGPT. Der Assistent von Magical20 ist darauf ausgelegt, das beste Rollenspielabenteuer für dich zu erschaffen. Er erkennt und generiert Handlungselemente wie Charaktere oder Monster mit vollständigen Datenblättern.",
