@@ -13,6 +13,7 @@ export interface MagicCardProps extends React.HTMLAttributes<HTMLDivElement> {
 
 export function MagicCard({
   children,
+  title,
   className,
   gradientSize = 200,
   gradientColor = "#262626",
@@ -70,23 +71,29 @@ export function MagicCard({
   }, [gradientSize, mouseX, mouseY]);
 
   return (
-    <div
-      ref={cardRef}
-      className={cn(
-        "group relative flex size-full overflow-hidden rounded-xl bg-neutral-900 bordertext-white",
-        className,
-      )}
-    >
-      <div className="relative z-10">{children}</div>
-      <motion.div
-        className="pointer-events-none absolute -inset-px rounded-xl opacity-0 transition-opacity duration-300 group-hover:opacity-100"
-        style={{
-          background: useMotionTemplate`
-            radial-gradient(${gradientSize}px circle at ${mouseX}px ${mouseY}px, ${gradientColor}, transparent 100%)
-          `,
-          opacity: gradientOpacity,
-        }}
-      />
-    </div>
+<div
+  ref={cardRef}
+  className={cn(
+    "group relative flex size-full overflow-hidden rounded-xl bg-neutral-900 bordertext-white",
+    className,
+  )}
+>
+  {/* Span para la esquina superior izquierda */}
+  <span className="absolute top-8 left-8 text-white font-bold z-20">
+    {title}
+  </span>
+
+  <div className="relative z-10">{children}</div>
+
+  <motion.div
+    className="pointer-events-none absolute -inset-px rounded-xl opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+    style={{
+      background: useMotionTemplate`
+        radial-gradient(${gradientSize}px circle at ${mouseX}px ${mouseY}px, ${gradientColor}, transparent 100%)
+      `,
+      opacity: gradientOpacity,
+    }}
+  />
+</div>
   );
 }
