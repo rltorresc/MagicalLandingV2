@@ -1,20 +1,33 @@
 ---
-import Layout from "../layouts/Layout.astro";
 import "@/styles/globals.css";
-import Presentacion from "../components/Presentacion.astro";
-import Intro2 from "@/components/Intro2.astro";
-import Bento from "@/components/Bento.astro";
-import Card from "@/components/Card.astro";
-import Comunidad from "@/components/Comunidad.astro";
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
-<Layout>
-  <Presentacion />
-  <Intro2 />
-  <Bento />
-  <Card />
-  <Comunidad />
-</Layout>
+<!doctype html>
+<html class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Magical20</title>
+
+    <script>
+      (function () {
+        const supportedLanguages = ['en', 'es', 'it', 'pt', 'fr', 'de'];
+        const defaultLanguage = 'en';
+    
+        const browserLang = navigator.language.split('-')[0];
+        const lang = supportedLanguages.includes(browserLang) ? browserLang : defaultLanguage;
+        const currentPath = window.location.pathname;
+        const [, slugLang] = currentPath.split('/');
+    
+        if (!supportedLanguages.includes(slugLang)) {
+          const newPath = `/${lang}${currentPath}`;
+          window.location.replace(newPath);
+        } else {
+          document.documentElement.lang = slugLang;
+        }
+      })();
+    </script>
+  </head>
+</html>
