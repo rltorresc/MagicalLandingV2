@@ -1,24 +1,24 @@
-h1 {
+section h1 {
     @apply text-4xl font-bold text-purple-400;
 }
-p {
+section p {
     @apply text-lg;
     margin-top: 0.5rem;
 }
-h2 {
+section h2 {
     @apply text-2xl font-bold text-purple-400;
     margin-top: 3rem;
 }
-h3 {
+section h3 {
     @apply text-xl font-bold;
 }
-h4 {
+section h4 {
     @apply text-lg font-bold;
 }
-h5 {
+section h5 {
     @apply text-base font-bold;
 }
-h6 {
+section h6 {
     @apply text-sm font-bold;
 }
 
@@ -28,6 +28,6 @@ section li {
     margin-top: 0.5rem;
 }
 
-strong {
+section strong {
     @apply font-bold text-purple-200;
 }
