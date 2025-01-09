@@ -44,6 +44,9 @@ export const ui = {
         "google.badge": "DISPONIBLE EN",
         "apple.badge": "Próximamente en",
         "a.instagramLink": "magical20_es",
+        "footer.privacyPolicy": "Política de Privacidad",
+        "footer.termsAndConditions": "Términos y Condiciones",
+        "footer.allRightsReserved": "Todos los derechos reservados"
     },
     en: {
         "span.head": "📣 Monster App now available!",
@@ -83,6 +86,9 @@ export const ui = {
         "google.badge": "AVAILABLE ON",
         "apple.badge": "Coming soon on",
         "a.instagramLink": "magical20_ai",
+        "footer.privacyPolicy": "Privacy Policy",
+        "footer.termsAndConditions": "Terms and Conditions",
+        "footer.allRightsReserved": "All Rights Reserved"
     },
     it: {
         "span.head": "📣 App Mostri ora disponibile!",
@@ -122,6 +128,9 @@ export const ui = {
         "google.badge": "DISPONIBILE SU",
         "apple.badge": "In arrivo su",
         "a.instagramLink": "magical20_it",
+        "footer.privacyPolicy": "Politica sulla Privacy",
+        "footer.termsAndConditions": "Termini e Condizioni",
+        "footer.allRightsReserved": "Tutti i diritti riservati",
     },
     fr: {
         "span.head": "📣 Application Monstres maintenant disponible !",
@@ -161,6 +170,9 @@ export const ui = {
         "google.badge": "DISPONIBLE SUR",
         "apple.badge": "Bientôt disponible sur",
         "a.instagramLink": "magical20_fr",
+        "footer.privacyPolicy": "Politique de Confidentialité",
+        "footer.termsAndConditions": "Termes et Conditions",
+        "footer.allRightsReserved": "Tous droits réservés",
     },
     pt: {
         "span.head": "📣 Aplicação Monstros já disponível!",
@@ -201,6 +213,9 @@ export const ui = {
         "google.badge": "DISPONÍVEL EM",
         "apple.badge": "Em breve em",
         "a.instagramLink": "magical20_pt",
+        "footer.privacyPolicy": "Política de Privacidade",
+        "footer.termsAndConditions": "Termos e Condições",
+        "footer.allRightsReserved": "Todos os direitos reservados",
     },
     de: {
         "span.head": "📣 Monster-App jetzt verfügbar!",
@@ -240,5 +255,8 @@ export const ui = {
         "google.badge": "VERFÜGBAR AUF",
         "apple.badge": "Demnächst verfügbar auf",
         "a.instagramLink": "magical20_de",
+        "footer.privacyPolicy": "Datenschutzrichtlinie",
+        "footer.termsAndConditions": "Allgemeine Geschäftsbedingungen",
+        "footer.allRightsReserved": "Alle Rechte vorbehalten",
     },
 } as const;
