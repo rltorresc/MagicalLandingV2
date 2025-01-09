@@ -46,7 +46,10 @@ export const ui = {
         "a.instagramLink": "magical20_es",
         "footer.privacyPolicy": "Política de Privacidad",
         "footer.termsAndConditions": "Términos y Condiciones",
-        "footer.allRightsReserved": "Todos los derechos reservados"
+        "footer.allRightsReserved": "Todos los derechos reservados",
+        "404.title": "¡Oops! Página no encontrada",
+        "404.subtitle": "Parece que te has aventurado en un reino desconocido.",
+        "404.goBack": "Volver a la página principal"
     },
     en: {
         "span.head": "📣 Monster App now available!",
@@ -88,7 +91,10 @@ export const ui = {
         "a.instagramLink": "magical20_ai",
         "footer.privacyPolicy": "Privacy Policy",
         "footer.termsAndConditions": "Terms and Conditions",
-        "footer.allRightsReserved": "All Rights Reserved"
+        "footer.allRightsReserved": "All Rights Reserved",
+        "404.title": "Oops! Page not found",
+        "404.subtitle": "It seems you've traveled to an unknown world.",
+        "404.goBack": "Go back to the homepage"
     },
     it: {
         "span.head": "📣 App Mostri ora disponibile!",
@@ -131,6 +137,9 @@ export const ui = {
         "footer.privacyPolicy": "Politica sulla Privacy",
         "footer.termsAndConditions": "Termini e Condizioni",
         "footer.allRightsReserved": "Tutti i diritti riservati",
+        "404.title": "Oops! Pagina non trovata",
+        "404.subtitle": "Sembra che tu abbia viaggiato in un mondo sconosciuto.",
+        "404.goBack": "Torna alla pagina principale"
     },
     fr: {
         "span.head": "📣 Application Monstres maintenant disponible !",
@@ -173,6 +182,9 @@ export const ui = {
         "footer.privacyPolicy": "Politique de Confidentialité",
         "footer.termsAndConditions": "Termes et Conditions",
         "footer.allRightsReserved": "Tous droits réservés",
+        "404.title": "Oops! Page non trouvée",
+        "404.subtitle": "Il semble que vous ayez voyagé dans un monde inconnu.",
+        "404.goBack": "Retour à la page d'accueil"
     },
     pt: {
         "span.head": "📣 Aplicação Monstros já disponível!",
@@ -216,6 +228,9 @@ export const ui = {
         "footer.privacyPolicy": "Política de Privacidade",
         "footer.termsAndConditions": "Termos e Condições",
         "footer.allRightsReserved": "Todos os direitos reservados",
+        "404.title": "Oops! Página não encontrada",
+        "404.subtitle": "Parece que você visitou um mundo desconhecido.",
+        "404.goBack": "Voltar para a página inicial"
     },
     de: {
         "span.head": "📣 Monster-App jetzt verfügbar!",
@@ -258,5 +273,8 @@ export const ui = {
         "footer.privacyPolicy": "Datenschutzrichtlinie",
         "footer.termsAndConditions": "Allgemeine Geschäftsbedingungen",
         "footer.allRightsReserved": "Alle Rechte vorbehalten",
+        "404.title": "Oops! Seite nicht gefunden",
+        "404.subtitle": "Es scheint, dass du in ein unbekanntes Land gereist bist.",
+        "404.goBack": "Zurück zur Startseite"
     },
 } as const;

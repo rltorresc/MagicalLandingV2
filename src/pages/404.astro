@@ -1,0 +1,66 @@
+---
+import "@/styles/globals.css";
+
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+
+const language = getLangFromUrl(Astro.url);
+const t = useTranslations(language);
+---
+
+<script>
+    (function () {
+        const supportedLanguages = ["en", "es", "it", "pt", "fr", "de"];
+        const defaultLanguage = "en";
+
+        const browserLang = navigator.language.split("-")[0];
+        const lang = supportedLanguages.includes(browserLang)
+            ? browserLang
+            : defaultLanguage;
+
+        const currentPath = window.location.pathname;
+        const [, slugLang, ...restOfPath] = currentPath.split("/");
+
+        // If the first segment is not a supported language, redirect to the default language
+        if (!supportedLanguages.includes(slugLang)) {
+            if (restOfPath.length > 0) {
+                // Replace the first segment with the language and redirect
+                const newPath = `/${lang}/${restOfPath.join("/")}`;
+                window.location.replace(newPath);
+            } else {
+                // Append the language to the path
+                const newPath = `/${lang}${currentPath}`;
+                window.location.replace(newPath);
+            }
+        }
+    })();
+</script>
+
+<html class="dark">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="generator" content={Astro.generator} />
+        <title>Magical20</title>
+    </head>
+
+    <body>
+        <div
+            class="flex flex-col items-center justify-center min-h-screen bg-black-100 text-gray-200 p-4"
+        >
+            <h1 class="text-6xl font-bold mb-4">404</h1>
+            <p class="text-2xl font-bold mb-4 text-center">
+                {t("404.title")}
+            </p>
+            <p class="text-xl mb-8 text-center">
+                {t("404.subtitle")}
+            </p>
+            <a
+                href="/"
+                class="py-3 px-6 bg-purple-600 text-white text-lg font-bold rounded-md shadow-lg hover:bg-purple-700 transition-all duration-300 ease-in-out transform hover:scale-105"
+            >
+                {t("404.goBack")}
+            </a>
+        </div>
+    </body>
+</html>
