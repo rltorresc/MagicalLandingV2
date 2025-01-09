@@ -1,0 +1,35 @@
+---
+import "@/styles/globals.css";
+---
+
+<!doctype html>
+<html class="dark">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="generator" content={Astro.generator} />
+        <title>Magical20</title>
+
+        <script>
+            (function () {
+                const supportedLanguages = ["en", "es", "it", "pt", "fr", "de"];
+                const defaultLanguage = "en";
+
+                const browserLang = navigator.language.split("-")[0];
+                const lang = supportedLanguages.includes(browserLang)
+                    ? browserLang
+                    : defaultLanguage;
+                const currentPath = window.location.pathname;
+                const [, slugLang] = currentPath.split("/");
+
+                if (!supportedLanguages.includes(slugLang)) {
+                    const newPath = `/${lang}${currentPath}`;
+                    window.location.replace(newPath);
+                } else {
+                    document.documentElement.lang = slugLang;
+                }
+            })();
+        </script>
+    </head>
+</html>
