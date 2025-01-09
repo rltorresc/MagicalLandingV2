@@ -22,9 +22,9 @@ Bienvenido a Magical20, una plataforma innovadora diseñada para ofrecer una exp
 
 Magical20 es propiedad de Jose Luis Salazar González. Nuestro objetivo es facilitar la creación y gestión de aventuras de Rol de Mesa a través de una interfaz intuitiva y fácil de usar.
 
-Para cualquier consulta o información adicional sobre nuestros servicios, no dude en ponerse en contacto con nosotros a través de <[contacto@magical20.com](mailto:contacto@magical20.com)>. Agradecemos su confianza en Magical20 y esperamos que disfrute de todos los beneficios que nuestra plataforma tiene para ofrecer.
+Para cualquier consulta o información adicional sobre nuestros servicios, no dude en ponerse en contacto con nosotros a través de <[contact@magical20.com](mailto:contact@magical20.com)>. Agradecemos su confianza en Magical20 y esperamos que disfrute de todos los beneficios que nuestra plataforma tiene para ofrecer.
 
-Dirección física: Calle Miguel de Mañara 36, San José de La Rinconada, Sevilla, España. Correo electrónico: <[contacto@magical20.com](mailto:contacto@magical20.com)>. Teléfono de contacto: 954542625.
+Dirección física: Calle Miguel de Mañara 36, San José de La Rinconada, Sevilla, España. Correo electrónico: <[contact@magical20.com](mailto:contact@magical20.com)>. Teléfono de contacto: 954542625.
 
 ## Descripción de los Servicios Ofrecidos
 
@@ -60,16 +60,16 @@ Estas Condiciones Generales de Uso se rigen por la legislación española. Cualq
 
 El acceso y uso de las plataformas Magical20, tanto en su versión web como en la aplicación móvil, está condicionado a la aceptación de una suscripción activa o la adquisición de créditos virtuales denominados "maná". Los términos específicos, condiciones y tarifas aplicables a las suscripciones y compras de maná se encuentran detallados en las respectivas plataformas y están sujetas a modificaciones según lo determine Magical20, con notificación previa al usuario. Los usuarios tienen la opción de cancelar su suscripción en cualquier momento desde su respectivo perfil de la plataforma.
 
-**Garantías Legales y Comerciales:** Los servicios de suscripción de Magical20 están sujetos a las garantías legales establecidas por la normativa española. Los usuarios tienen derecho a recibir servicios que cumplan con las condiciones acordadas y a reclamar en caso de incumplimiento. Para presentar una reclamación, los usuarios deben contactar a soporte a través de <[contacto@magical20.com](mailto:contacto@magical20.com)>, proporcionando detalles del problema. Magical20 se compromete a resolver las reclamaciones de manera eficiente y conforme a la legislación vigente.
+**Garantías Legales y Comerciales:** Los servicios de suscripción de Magical20 están sujetos a las garantías legales establecidas por la normativa española. Los usuarios tienen derecho a recibir servicios que cumplan con las condiciones acordadas y a reclamar en caso de incumplimiento. Para presentar una reclamación, los usuarios deben contactar a soporte a través de <[contact@magical20.com](mailto:contact@magical20.com)>, proporcionando detalles del problema. Magical20 se compromete a resolver las reclamaciones de manera eficiente y conforme a la legislación vigente.
 
 ## Derecho de Desistimiento
 
-Los usuarios tienen derecho a desistir de su suscripción a Magical20 en un plazo de 14 días naturales desde la fecha de contratación, sin necesidad de justificación. Para ejercer este derecho, deben comunicar su decisión a través de un correo electrónico a <[contacto@magical20.com](mailto:contacto@magical20.com)>, indicando su intención de desistir. Una vez recibida la solicitud, se procederá a la cancelación y reembolso correspondiente, salvo excepciones legales aplicables. Este derecho no se aplicará si el servicio ha sido completamente ejecutado o si el usuario ha comenzado a utilizarlo, con su consentimiento previo, durante el periodo de desistimiento.
+Los usuarios tienen derecho a desistir de su suscripción a Magical20 en un plazo de 14 días naturales desde la fecha de contratación, sin necesidad de justificación. Para ejercer este derecho, deben comunicar su decisión a través de un correo electrónico a <[contact@magical20.com](mailto:contact@magical20.com)>, indicando su intención de desistir. Una vez recibida la solicitud, se procederá a la cancelación y reembolso correspondiente, salvo excepciones legales aplicables. Este derecho no se aplicará si el servicio ha sido completamente ejecutado o si el usuario ha comenzado a utilizarlo, con su consentimiento previo, durante el periodo de desistimiento.
 
 ## Información de Contacto para Soporte
 
 Para cualquier consulta, incidencia o solicitud de soporte técnico relacionada con el uso de la plataforma web y la aplicación móvil **Magical20**, los usuarios pueden ponerse en contacto con nuestro equipo de atención al cliente a través de los siguientes medios:
 
--   **Correo Electrónico**: Los usuarios pueden enviar un correo electrónico a <[contacto@magical20.com](mailto:contacto@magical20.com)> para recibir asistencia.
+-   **Correo Electrónico**: Los usuarios pueden enviar un correo electrónico a <[contact@magical20.com](mailto:contact@magical20.com)> para recibir asistencia.
 
 Nuestro objetivo es proporcionar un servicio de soporte eficiente y accesible para garantizar la mejor experiencia posible al utilizar **Magical20**. Agradecemos su paciencia y comprensión mientras trabajamos para resolver cualquier problema que pueda surgir.

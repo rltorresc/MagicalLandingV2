@@ -22,9 +22,9 @@ Willkommen bei Magical20, einer innovativen Plattform, die darauf ausgelegt ist,
 
 Magical20 ist Eigentum von Jose Luis Salazar González. Unser Ziel ist es, die Erstellung und Verwaltung von Rollenspielabenteuern durch eine intuitive und benutzerfreundliche Schnittstelle zu erleichtern.
 
-Bei Fragen oder weiteren Informationen zu unseren Diensten zögern Sie nicht, uns unter <[contacto@magical20.com](mailto:contacto@magical20.com)> zu kontaktieren. Wir danken Ihnen für Ihr Vertrauen in Magical20 und hoffen, dass Sie alle Vorteile unserer Plattform genießen können.
+Bei Fragen oder weiteren Informationen zu unseren Diensten zögern Sie nicht, uns unter <[contact@magical20.com](mailto:contact@magical20.com)> zu kontaktieren. Wir danken Ihnen für Ihr Vertrauen in Magical20 und hoffen, dass Sie alle Vorteile unserer Plattform genießen können.
 
-Physische Adresse: Calle Miguel de Mañara 36, San José de La Rinconada, Sevilla, Spanien. E-Mail-Adresse: <[contacto@magical20.com](mailto:contacto@magical20.com)>. Telefonnummer: 954542625.
+Physische Adresse: Calle Miguel de Mañara 36, San José de La Rinconada, Sevilla, Spanien. E-Mail-Adresse: <[contact@magical20.com](mailto:contact@magical20.com)>. Telefonnummer: 954542625.
 
 ## Beschreibung der angebotenen Dienste
 
@@ -60,16 +60,16 @@ Diese Allgemeinen Nutzungsbedingungen unterliegen deutschem Recht. Alle Streitig
 
 Der Zugriff auf und die Nutzung der Plattformen von Magical20, sowohl in der Web- als auch in der mobilen Version, setzen die Annahme eines aktiven Abonnements oder den Erwerb virtueller Credits, genannt "Mana", voraus. Die spezifischen Bedingungen und Tarife für Abonnements und den Kauf von Mana sind auf den jeweiligen Plattformen aufgeführt und können von Magical20 mit vorheriger Benachrichtigung des Benutzers geändert werden. Benutzer können ihr Abonnement jederzeit über ihr Profil auf der Plattform kündigen.
 
-**Gesetzliche und kommerzielle Garantien:** Die Abonnementdienste von Magical20 unterliegen den gesetzlichen Garantien gemäß deutschem Recht. Benutzer haben das Recht, Dienstleistungen zu erhalten, die den vereinbarten Bedingungen entsprechen, und können im Falle von Vertragsverletzungen Beschwerde einlegen. Um eine Beschwerde einzureichen, müssen Benutzer den Support über <[contacto@magical20.com](mailto:contacto@magical20.com)> kontaktieren und die Einzelheiten des Problems angeben. Magical20 verpflichtet sich, Beschwerden effizient und im Einklang mit den geltenden Gesetzen zu bearbeiten.
+**Gesetzliche und kommerzielle Garantien:** Die Abonnementdienste von Magical20 unterliegen den gesetzlichen Garantien gemäß deutschem Recht. Benutzer haben das Recht, Dienstleistungen zu erhalten, die den vereinbarten Bedingungen entsprechen, und können im Falle von Vertragsverletzungen Beschwerde einlegen. Um eine Beschwerde einzureichen, müssen Benutzer den Support über <[contact@magical20.com](mailto:contact@magical20.com)> kontaktieren und die Einzelheiten des Problems angeben. Magical20 verpflichtet sich, Beschwerden effizient und im Einklang mit den geltenden Gesetzen zu bearbeiten.
 
 ## Widerrufsrecht
 
-Benutzer haben das Recht, ihr Abonnement bei Magical20 innerhalb von 14 Kalendertagen ab dem Datum des Vertragsabschlusses ohne Angabe von Gründen zu widerrufen. Um dieses Recht auszuüben, müssen sie ihre Entscheidung per E-Mail an <[contacto@magical20.com](mailto:contacto@magical20.com)> mitteilen und ihren Widerrufswunsch angeben. Nach Eingang der Anfrage wird der Widerrufsprozess eingeleitet und die entsprechende Rückerstattung veranlasst, sofern keine gesetzlichen Ausnahmen gelten. Dieses Recht gilt nicht, wenn der Dienst vollständig erbracht wurde oder wenn der Benutzer mit seiner vorherigen Zustimmung während der Widerrufsfrist mit der Nutzung begonnen hat.
+Benutzer haben das Recht, ihr Abonnement bei Magical20 innerhalb von 14 Kalendertagen ab dem Datum des Vertragsabschlusses ohne Angabe von Gründen zu widerrufen. Um dieses Recht auszuüben, müssen sie ihre Entscheidung per E-Mail an <[contact@magical20.com](mailto:contact@magical20.com)> mitteilen und ihren Widerrufswunsch angeben. Nach Eingang der Anfrage wird der Widerrufsprozess eingeleitet und die entsprechende Rückerstattung veranlasst, sofern keine gesetzlichen Ausnahmen gelten. Dieses Recht gilt nicht, wenn der Dienst vollständig erbracht wurde oder wenn der Benutzer mit seiner vorherigen Zustimmung während der Widerrufsfrist mit der Nutzung begonnen hat.
 
 ## Kontaktinformationen für Support
 
 Für Fragen, Probleme oder Anfragen zu technischem Support im Zusammenhang mit der Nutzung der Webplattform und der mobilen Anwendung **Magical20** können Benutzer unser Kundenserviceteam über die folgenden Kanäle kontaktieren:
 
--   **E-Mail:** Benutzer können eine E-Mail an <[contacto@magical20.com](mailto:contacto@magical20.com)> senden, um Unterstützung zu erhalten.
+-   **E-Mail:** Benutzer können eine E-Mail an <[contact@magical20.com](mailto:contact@magical20.com)> senden, um Unterstützung zu erhalten.
 
 Unser Ziel ist es, einen effizienten und zugänglichen Support-Service bereitzustellen, um die bestmögliche Erfahrung bei der Nutzung von **Magical20** zu gewährleisten. Wir danken Ihnen für Ihre Geduld und Ihr Verständnis, während wir daran arbeiten, eventuelle Probleme zu lösen.

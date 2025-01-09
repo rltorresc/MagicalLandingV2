@@ -22,9 +22,9 @@ Welcome to Magical20, an innovative platform designed to offer a unique experien
 
 Magical20 is owned by Jose Luis Salazar González. Our goal is to facilitate the creation and management of role-playing adventures through an intuitive and user-friendly interface.
 
-For any questions or additional information about our services, please do not hesitate to contact us at <[contacto@magical20.com](mailto:contacto@magical20.com)>. We appreciate your trust in Magical20 and hope you enjoy all the benefits our platform has to offer.
+For any questions or additional information about our services, please do not hesitate to contact us at <[contact@magical20.com](mailto:contact@magical20.com)>. We appreciate your trust in Magical20 and hope you enjoy all the benefits our platform has to offer.
 
-Physical Address: Calle Miguel de Mañara 36, San José de La Rinconada, Sevilla, Spain. Email Address: <[contacto@magical20.com](mailto:contacto@magical20.com)>. Phone Number: 954542625.
+Physical Address: Calle Miguel de Mañara 36, San José de La Rinconada, Sevilla, Spain. Email Address: <[contact@magical20.com](mailto:contact@magical20.com)>. Phone Number: 954542625.
 
 ## Description of Services Offered
 
@@ -60,16 +60,16 @@ These General Terms of Use are governed by U.S. law. Any disputes arising from t
 
 Access to and use of the Magical20 platforms, both web and mobile versions, are conditioned on the acceptance of an active subscription or the purchase of virtual credits called "mana." The specific terms, conditions, and rates applicable to subscriptions and mana purchases are detailed on the respective platforms and are subject to changes as determined by Magical20, with prior notice to the user. Users have the option to cancel their subscription at any time through their profile on the platform.
 
-**Legal and Commercial Warranties:** Magical20's subscription services are subject to legal warranties established by U.S. law. Users are entitled to receive services that meet the agreed conditions and may file complaints in case of non-compliance. To file a complaint, users must contact support at <[contacto@magical20.com](mailto:contacto@magical20.com)>, providing details of the issue. Magical20 is committed to resolving complaints efficiently and in accordance with applicable legislation.
+**Legal and Commercial Warranties:** Magical20's subscription services are subject to legal warranties established by U.S. law. Users are entitled to receive services that meet the agreed conditions and may file complaints in case of non-compliance. To file a complaint, users must contact support at <[contact@magical20.com](mailto:contact@magical20.com)>, providing details of the issue. Magical20 is committed to resolving complaints efficiently and in accordance with applicable legislation.
 
 ## Right of Withdrawal
 
-Users have the right to withdraw from their subscription to Magical20 within 14 calendar days from the date of subscription, without the need to provide a justification. To exercise this right, they must communicate their decision via email to <[contacto@magical20.com](mailto:contacto@magical20.com)>, indicating their intent to withdraw. Once the request is received, the cancellation process and corresponding refund will be initiated, unless legal exceptions apply. This right does not apply if the service has been fully executed or if the user has begun to use it, with their prior consent, during the withdrawal period.
+Users have the right to withdraw from their subscription to Magical20 within 14 calendar days from the date of subscription, without the need to provide a justification. To exercise this right, they must communicate their decision via email to <[contact@magical20.com](mailto:contact@magical20.com)>, indicating their intent to withdraw. Once the request is received, the cancellation process and corresponding refund will be initiated, unless legal exceptions apply. This right does not apply if the service has been fully executed or if the user has begun to use it, with their prior consent, during the withdrawal period.
 
 ## Contact Information for Support
 
 For any questions, issues, or technical support requests related to the use of the **Magical20** web platform and mobile application, users can contact our customer support team through the following means:
 
--   **Email:** Users may send an email to <[contacto@magical20.com](mailto:contacto@magical20.com)> to receive assistance.
+-   **Email:** Users may send an email to <[contact@magical20.com](mailto:contact@magical20.com)> to receive assistance.
 
 Our goal is to provide efficient and accessible support to ensure the best possible experience when using **Magical20**. We appreciate your patience and understanding as we work to resolve any issues that may arise.

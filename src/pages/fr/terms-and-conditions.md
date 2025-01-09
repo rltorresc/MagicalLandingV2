@@ -22,9 +22,9 @@ Bienvenue sur Magical20, une plateforme innovante conçue pour offrir une expér
 
 Magical20 est la propriété de Jose Luis Salazar González. Notre objectif est de faciliter la création et la gestion d’aventures de jeux de rôle via une interface intuitive et facile à utiliser.
 
-Pour toute question ou information supplémentaire concernant nos services, n’hésitez pas à nous contacter à <[contacto@magical20.com](mailto:contacto@magical20.com)>. Nous apprécions votre confiance en Magical20 et espérons que vous profiterez de tous les avantages que notre plateforme a à offrir.
+Pour toute question ou information supplémentaire concernant nos services, n’hésitez pas à nous contacter à <[contact@magical20.com](mailto:contact@magical20.com)>. Nous apprécions votre confiance en Magical20 et espérons que vous profiterez de tous les avantages que notre plateforme a à offrir.
 
-Adresse physique : Calle Miguel de Mañara 36, San José de La Rinconada, Séville, Espagne. Adresse e-mail : <[contacto@magical20.com](mailto:contacto@magical20.com)>. Numéro de téléphone : 954542625.
+Adresse physique : Calle Miguel de Mañara 36, San José de La Rinconada, Séville, Espagne. Adresse e-mail : <[contact@magical20.com](mailto:contact@magical20.com)>. Numéro de téléphone : 954542625.
 
 ## Description des Services Proposés
 
@@ -60,16 +60,16 @@ Les présentes Conditions Générales d’Utilisation sont régies par la légis
 
 L’accès et l’utilisation des plateformes Magical20, tant dans la version web que dans l’application mobile, sont conditionnés à l’acceptation d’un abonnement actif ou à l’achat de crédits virtuels appelés "mana". Les termes spécifiques, conditions et tarifs applicables aux abonnements et aux achats de mana sont détaillés sur les plateformes respectives et sont soumis à des modifications déterminées par Magical20, avec notification préalable à l’utilisateur. Les utilisateurs ont la possibilité d’annuler leur abonnement à tout moment depuis leur profil sur la plateforme.
 
-**Garanties Légales et Commerciales :** Les services d’abonnement de Magical20 sont soumis aux garanties légales établies par la législation française. Les utilisateurs ont le droit de recevoir des services conformes aux conditions convenues et de présenter des réclamations en cas de non-respect. Pour présenter une réclamation, les utilisateurs doivent contacter le support à <[contacto@magical20.com](mailto:contacto@magical20.com)>, en fournissant les détails du problème. Magical20 s’engage à résoudre les réclamations de manière efficace et conforme à la législation en vigueur.
+**Garanties Légales et Commerciales :** Les services d’abonnement de Magical20 sont soumis aux garanties légales établies par la législation française. Les utilisateurs ont le droit de recevoir des services conformes aux conditions convenues et de présenter des réclamations en cas de non-respect. Pour présenter une réclamation, les utilisateurs doivent contacter le support à <[contact@magical20.com](mailto:contact@magical20.com)>, en fournissant les détails du problème. Magical20 s’engage à résoudre les réclamations de manière efficace et conforme à la législation en vigueur.
 
 ## Droit de Rétractation
 
-Les utilisateurs ont le droit de se rétracter de leur abonnement à Magical20 dans un délai de 14 jours calendaires à compter de la date de souscription, sans avoir à fournir de justification. Pour exercer ce droit, ils doivent communiquer leur décision par e-mail à <[contacto@magical20.com](mailto:contacto@magical20.com)>, en indiquant leur intention de se rétracter. Une fois la demande reçue, la procédure d’annulation et de remboursement correspondant sera enclenchée, sauf exceptions légales applicables. Ce droit ne s’applique pas si le service a été pleinement exécuté ou si l’utilisateur a commencé à l’utiliser, avec son consentement préalable, durant la période de rétractation.
+Les utilisateurs ont le droit de se rétracter de leur abonnement à Magical20 dans un délai de 14 jours calendaires à compter de la date de souscription, sans avoir à fournir de justification. Pour exercer ce droit, ils doivent communiquer leur décision par e-mail à <[contact@magical20.com](mailto:contact@magical20.com)>, en indiquant leur intention de se rétracter. Une fois la demande reçue, la procédure d’annulation et de remboursement correspondant sera enclenchée, sauf exceptions légales applicables. Ce droit ne s’applique pas si le service a été pleinement exécuté ou si l’utilisateur a commencé à l’utiliser, avec son consentement préalable, durant la période de rétractation.
 
 ## Informations de Contact pour le Support
 
 Pour toute question, problème ou demande d’assistance technique relative à l’utilisation de la plateforme web et de l’application mobile **Magical20**, les utilisateurs peuvent contacter notre équipe d’assistance client via les moyens suivants :
 
--   **E-mail :** Les utilisateurs peuvent envoyer un e-mail à <[contacto@magical20.com](mailto:contacto@magical20.com)> pour recevoir de l’aide.
+-   **E-mail :** Les utilisateurs peuvent envoyer un e-mail à <[contact@magical20.com](mailto:contact@magical20.com)> pour recevoir de l’aide.
 
 Notre objectif est de fournir un service d’assistance efficace et accessible pour garantir la meilleure expérience possible lors de l’utilisation de **Magical20**. Nous apprécions votre patience et votre compréhension pendant que nous travaillons à résoudre tout problème qui pourrait survenir.
